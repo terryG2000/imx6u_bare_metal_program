@@ -15,4 +15,10 @@ cat 1k.bin relocate.imx > relocate.img # 将头部1k  和镜像烧写到relocate
 dd if=./relocate.img  of=/dev/sdc
 ```
 
+# 虚拟机编译
+编译前
+```shell
+ source /etc/porofile
+```
+
  
